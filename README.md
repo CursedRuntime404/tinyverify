@@ -50,6 +50,12 @@ source_url, checked_at
 
 ---
 
+## Proof it runs
+
+Sample outputs for each case are in [`samples/`](samples/): a single match, a no match, multiple matches, a Florida lookup and a re-check. The TinyFish Monitor watching Tesco's Companies House page runs every 6 hours; its check history is in `samples/monitor-dashboard.png`.
+
+---
+
 ## Registries tested so far
 
 | Key | Registry | Jurisdiction | Record type |

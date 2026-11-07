@@ -1,0 +1,110 @@
+﻿{
+    "query":  {
+                  "name":  "Tesco Aqua",
+                  "record_type":  "company_registration",
+                  "jurisdiction":  "UK",
+                  "identifier":  null
+              },
+    "results":  [
+                    {
+                        "registry":  "UK Companies House",
+                        "registry_key":  "uk_companies_house",
+                        "source_url":  "https://find-and-update.company-information.service.gov.uk/",
+                        "checked_at":  "2026-11-07T07:37:55.463424+00:00",
+                        "result":  "multiple_matches",
+                        "needs_confirmation":  true,
+                        "records":  [
+                                        {
+                                            "name":  "TESCO AQUA (GP) LIMITED",
+                                            "status":  "Dissolved",
+                                            "license_number":  "05721654",
+                                            "expiry_date":  "",
+                                            "disciplinary_actions":  [
+
+                                                                     ],
+                                            "location":  "Tesco House, Shire Park, Kestrel Way, Welwyn Garden City, United Kingdom, AL7 1GA",
+                                            "record_url":  "https://find-and-update.company-information.service.gov.uk/company/05721654",
+                                            "matched_previous_name":  "KSAU (NO. 2) LIMITED",
+                                            "match_type":  "partial",
+                                            "match_score":  86.95652173913044,
+                                            "raw_status":  "Dissolved on 3 March 2025",
+                                            "status_date":  "3 March 2025",
+                                            "source_url":  "https://find-and-update.company-information.service.gov.uk/company/05721654",
+                                            "checked_at":  "2026-11-07T07:37:55.463424+00:00"
+                                        },
+                                        {
+                                            "name":  "TESCO AQUA (1LP) LIMITED",
+                                            "status":  "Closed",
+                                            "license_number":  "BR008975",
+                                            "expiry_date":  "",
+                                            "disciplinary_actions":  [
+
+                                                                     ],
+                                            "location":  "New Tesco House, Cheshunt, Delamare Road, EN8 9SL",
+                                            "record_url":  "https://find-and-update.company-information.service.gov.uk/company/BR008975",
+                                            "matched_previous_name":  "",
+                                            "match_type":  "partial",
+                                            "match_score":  83.33333333333334,
+                                            "raw_status":  "Closed",
+                                            "status_date":  "",
+                                            "source_url":  "https://find-and-update.company-information.service.gov.uk/company/BR008975",
+                                            "checked_at":  "2026-11-07T07:37:55.463424+00:00"
+                                        },
+                                        {
+                                            "name":  "TESCO AQUA (FINCO2) LIMITED",
+                                            "status":  "Dissolved",
+                                            "license_number":  "05888957",
+                                            "expiry_date":  "",
+                                            "disciplinary_actions":  [
+
+                                                                     ],
+                                            "location":  "1 More London Place, London, SE1 2AF",
+                                            "record_url":  "https://find-and-update.company-information.service.gov.uk/company/05888957",
+                                            "matched_previous_name":  "",
+                                            "match_type":  "partial",
+                                            "match_score":  74.07407407407408,
+                                            "raw_status":  "Dissolved on 12 November 2025",
+                                            "status_date":  "12 November 2025",
+                                            "source_url":  "https://find-and-update.company-information.service.gov.uk/company/05888957",
+                                            "checked_at":  "2026-11-07T07:37:55.463424+00:00"
+                                        },
+                                        {
+                                            "name":  "TESCO AQUA (NOMINEE 1) LIMITED",
+                                            "status":  "Dissolved",
+                                            "license_number":  "05888955",
+                                            "expiry_date":  "",
+                                            "disciplinary_actions":  [
+
+                                                                     ],
+                                            "location":  "Tesco House, Shire Park, Kestrel Way, Welwyn Garden City, United Kingdom, AL7 1GA",
+                                            "record_url":  "https://find-and-update.company-information.service.gov.uk/company/05888955",
+                                            "matched_previous_name":  "",
+                                            "match_type":  "partial",
+                                            "match_score":  66.66666666666667,
+                                            "raw_status":  "Dissolved on 28 November 2023",
+                                            "status_date":  "28 November 2023",
+                                            "source_url":  "https://find-and-update.company-information.service.gov.uk/company/05888955",
+                                            "checked_at":  "2026-11-07T07:37:55.463424+00:00"
+                                        },
+                                        {
+                                            "name":  "TESCO AQUA (NOMINEE HOLDCO) LIMITED",
+                                            "status":  "Dissolved",
+                                            "license_number":  "05889025",
+                                            "expiry_date":  "",
+                                            "disciplinary_actions":  [
+
+                                                                     ],
+                                            "location":  "Tesco House, Shire Park, Kestrel Way, Welwyn Garden City, United Kingdom, AL7 1GA",
+                                            "record_url":  "https://find-and-update.company-information.service.gov.uk/company/05889025",
+                                            "matched_previous_name":  "",
+                                            "match_type":  "partial",
+                                            "match_score":  57.14285714285714,
+                                            "raw_status":  "Dissolved on 5 December 2023",
+                                            "status_date":  "5 December 2023",
+                                            "source_url":  "https://find-and-update.company-information.service.gov.uk/company/05889025",
+                                            "checked_at":  "2026-11-07T07:37:55.463424+00:00"
+                                        }
+                                    ]
+                    }
+                ]
+}

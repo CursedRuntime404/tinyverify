@@ -1,0 +1,10 @@
+﻿{
+    "watch_id":  "uk_companies_house:00445790",
+    "changed":  false,
+    "diff":  {
+
+             },
+    "checked_at":  "2026-11-07T07:46:06.473190+00:00",
+    "source_url":  "https://find-and-update.company-information.service.gov.uk/company/00445790",
+    "method":  "fetch"
+}

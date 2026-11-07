@@ -1,0 +1,110 @@
+{
+    "query":  {
+                  "name":  "Publix",
+                  "record_type":  "company_registration",
+                  "jurisdiction":  "US-FL",
+                  "identifier":  null
+              },
+    "results":  [
+                    {
+                        "registry":  "Florida Division of Corporations (Sunbiz)",
+                        "registry_key":  "fl_sunbiz",
+                        "source_url":  "https://search.sunbiz.org/Inquiry/CorporationSearch/ByName",
+                        "checked_at":  "2026-11-07T06:23:12.498329+00:00",
+                        "result":  "multiple_matches",
+                        "needs_confirmation":  true,
+                        "records":  [
+                                        {
+                                            "name":  "PUBLIX",
+                                            "status":  "Inactive",
+                                            "license_number":  "910940",
+                                            "expiry_date":  "",
+                                            "disciplinary_actions":  [
+
+                                                                     ],
+                                            "location":  "",
+                                            "record_url":  "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=PUBLIX%209109400&aggregateId=trade-910940-9d670eee-3ef4-45ec-ae61-2cf4fa2d2118&searchTerm=Publix&listNameOrder=PUBLIX%209109400",
+                                            "matched_previous_name":  "",
+                                            "match_type":  "exact",
+                                            "match_score":  100,
+                                            "raw_status":  "INACT",
+                                            "status_date":  "",
+                                            "source_url":  "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=PUBLIX%209109400&aggregateId=trade-910940-9d670eee-3ef4-45ec-ae61-2cf4fa2d2118&searchTerm=Publix&listNameOrder=PUBLIX%209109400",
+                                            "checked_at":  "2026-11-07T06:23:12.498329+00:00"
+                                        },
+                                        {
+                                            "name":  "PUBLIX",
+                                            "status":  "Inactive",
+                                            "license_number":  "913749",
+                                            "expiry_date":  "",
+                                            "disciplinary_actions":  [
+
+                                                                     ],
+                                            "location":  "",
+                                            "record_url":  "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=PUBLIX%209137490&aggregateId=trade-913749-41ebfa8e-678f-4451-9e59-d40d358fcb07&searchTerm=Publix&listNameOrder=PUBLIX%209109400",
+                                            "matched_previous_name":  "",
+                                            "match_type":  "exact",
+                                            "match_score":  100,
+                                            "raw_status":  "INACT",
+                                            "status_date":  "",
+                                            "source_url":  "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=PUBLIX%209137490&aggregateId=trade-913749-41ebfa8e-678f-4451-9e59-d40d358fcb07&searchTerm=Publix&listNameOrder=PUBLIX%209109400",
+                                            "checked_at":  "2026-11-07T06:23:12.498329+00:00"
+                                        },
+                                        {
+                                            "name":  "PUBLIX",
+                                            "status":  "Active",
+                                            "license_number":  "928735",
+                                            "expiry_date":  "",
+                                            "disciplinary_actions":  [
+
+                                                                     ],
+                                            "location":  "",
+                                            "record_url":  "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=PUBLIX%209287350&aggregateId=trade-928735-1c98a74d-6c0b-418e-b6cd-37a00fb4ba88&searchTerm=Publix&listNameOrder=PUBLIX%209109400",
+                                            "matched_previous_name":  "",
+                                            "match_type":  "exact",
+                                            "match_score":  100,
+                                            "raw_status":  "Active",
+                                            "status_date":  "",
+                                            "source_url":  "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=PUBLIX%209287350&aggregateId=trade-928735-1c98a74d-6c0b-418e-b6cd-37a00fb4ba88&searchTerm=Publix&listNameOrder=PUBLIX%209109400",
+                                            "checked_at":  "2026-11-07T06:23:12.498329+00:00"
+                                        },
+                                        {
+                                            "name":  "PUBLIX",
+                                            "status":  "Active",
+                                            "license_number":  "928736",
+                                            "expiry_date":  "",
+                                            "disciplinary_actions":  [
+
+                                                                     ],
+                                            "location":  "",
+                                            "record_url":  "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=PUBLIX%209287360&aggregateId=trade-928736-9a223583-15e4-4931-9ba9-3d44d7c3aa66&searchTerm=Publix&listNameOrder=PUBLIX%209109400",
+                                            "matched_previous_name":  "",
+                                            "match_type":  "exact",
+                                            "match_score":  100,
+                                            "raw_status":  "Active",
+                                            "status_date":  "",
+                                            "source_url":  "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=PUBLIX%209287360&aggregateId=trade-928736-9a223583-15e4-4931-9ba9-3d44d7c3aa66&searchTerm=Publix&listNameOrder=PUBLIX%209109400",
+                                            "checked_at":  "2026-11-07T06:23:12.498329+00:00"
+                                        },
+                                        {
+                                            "name":  "PUBLIX",
+                                            "status":  "Active",
+                                            "license_number":  "928737",
+                                            "expiry_date":  "",
+                                            "disciplinary_actions":  [
+
+                                                                     ],
+                                            "location":  "",
+                                            "record_url":  "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=PUBLIX%209287370&aggregateId=trade-928737-ab61fc61-b7d0-4ec2-8baf-67b0b82d7376&searchTerm=Publix&listNameOrder=PUBLIX%209109400",
+                                            "matched_previous_name":  "",
+                                            "match_type":  "exact",
+                                            "match_score":  100,
+                                            "raw_status":  "Active",
+                                            "status_date":  "",
+                                            "source_url":  "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=PUBLIX%209287370&aggregateId=trade-928737-ab61fc61-b7d0-4ec2-8baf-67b0b82d7376&searchTerm=Publix&listNameOrder=PUBLIX%209109400",
+                                            "checked_at":  "2026-11-07T06:23:12.498329+00:00"
+                                        }
+                                    ]
+                    }
+                ]
+}
