@@ -46,7 +46,7 @@ def split_status(raw):
     return s, (m.group(2) or "")
 
 
-STATUS_MAP = {"act": "Active", "active": "Active", "incorporated": "Active",
+STATUS_MAP = {"act": "Active", "active": "Active",
               "inact": "Inactive", "inactive": "Inactive"}
 
 
@@ -118,6 +118,23 @@ def check_registry(name, key, identifier=None):
         result = "single_match"
     else:
         result = "multiple_matches"   # guess nahi karte, user ko choose karne dete hain
+
+    for c in cands[:5]:
+        st = (c.get("status") or "").strip()
+        needs_enrichment = (not st) or st.lower().startswith("incorporated")
+        rec_url = c.get("record_url") or c.get("source_url")
+        if needs_enrichment and rec_url:
+            can_use_agent = (result == "single_match")
+            refreshed = refresh_record(key, rec_url, allow_agent=can_use_agent)
+            if refreshed.get("status"):
+                c["status"], c["status_date"] = normalize_status(refreshed["status"])
+                c["status_source"] = "record_page"
+            else:
+                c["status"] = ""
+                c["status_source"] = "unavailable"
+        else:
+            c["status_source"] = "search_listing"
+
     return {**base, "result": result, "needs_confirmation": result == "multiple_matches", "records": cands}
 
 
@@ -145,7 +162,7 @@ def _fetch_text(url):
     return str(item)
 
 
-def refresh_record(registry_key, record_url):
+def refresh_record(registry_key, record_url, allow_agent=True):
     """Free Fetch se status padho; na mile to Agent fallback."""
     reg = REGISTRIES[registry_key]
     out = {"source_url": record_url, "checked_at": now(), "method": "fetch"}
@@ -157,6 +174,8 @@ def refresh_record(registry_key, record_url):
             out["raw_status"] = m.group(1).strip()
             out["status"], out["status_date"] = normalize_status(m.group(1))
             return out
+    if not allow_agent:
+        return out
     resp = client.agent.run(
         goal="Read this record page. Copy the status, licence/registration number, expiry date "
              "and any disciplinary actions EXACTLY as shown. Never guess. location must be the registered address, never a URL.",

@@ -6,9 +6,10 @@ REGISTRIES = {
         "url": "https://find-and-update.company-information.service.gov.uk/",
         "hint": (
             "Type the name into the company search box and submit. From the search results list, extract the matching "
-            "companies directly (copy company name, company number as license_number, status, registered address as location, "
-            "and record link as record_url) even if results are partial matches. If a result shows 'Matching previous name: X', "
-            "capture that in matched_previous_name."
+            "companies directly (copy company name, company number as license_number, registered address as location, "
+            "and record link as record_url) even if results are partial matches. Copy the status exactly as shown; "
+            "if the search listing shows no explicit status, return an empty string. "
+            "If a result shows 'Matching previous name: X', capture that in matched_previous_name."
         ),
         "status_regex": r"Company status\W*([A-Za-z][A-Za-z \-]{2,30})",
     },
