@@ -1,4 +1,4 @@
-﻿{
+{
     "query":  {
                   "name":  "Zzxqwy Nonexistent Ltd",
                   "record_type":  "company_registration",
@@ -12,7 +12,7 @@
                         "source_url":  "https://find-and-update.company-information.service.gov.uk/",
                         "checked_at":  "2026-11-07T07:33:26.465647+00:00",
                         "result":  "no_match",
-                        "needs_confirmation":  true,
+                        "needs_confirmation":  false,
                         "records":  [
 
                                     ]

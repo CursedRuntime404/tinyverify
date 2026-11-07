@@ -114,7 +114,7 @@ def check_registry(name, key, identifier=None):
         result = "single_match"
     else:
         result = "multiple_matches"   # guess nahi karte, user ko choose karne dete hain
-    return {**base, "result": result, "needs_confirmation": result != "single_match", "records": cands}
+    return {**base, "result": result, "needs_confirmation": result == "multiple_matches", "records": cands}
 
 
 def verify(name, record_type, jurisdiction, identifier=None):
