@@ -46,7 +46,7 @@ def split_status(raw):
     return s, (m.group(2) or "")
 
 
-STATUS_MAP = {"act": "Active", "active": "Active",
+STATUS_MAP = {"act": "Active", "active": "Active", "incorporated": "Active",
               "inact": "Inactive", "inactive": "Inactive"}
 
 
@@ -80,9 +80,13 @@ def check_registry(name, key, identifier=None):
     reg = REGISTRIES[key]
     base = {"registry": reg["label"], "registry_key": key,
             "source_url": reg["url"], "checked_at": now()}
-    resp = client.agent.run(goal=_goal(name, reg), url=reg["url"], output_schema=SEARCH_SCHEMA)
-    if resp.status != RunStatus.COMPLETED:
-        return {**base, "result": "error", "error": str(resp.error), "records": []}
+    resp = None
+    for attempt in range(2):
+        resp = client.agent.run(goal=_goal(name, reg), url=reg["url"], output_schema=SEARCH_SCHEMA)
+        if resp.status == RunStatus.COMPLETED and (resp.result or {}).get("candidates"):
+            break
+    if not resp or resp.status != RunStatus.COMPLETED:
+        return {**base, "result": "error", "error": str(resp.error if resp else "unknown"), "records": []}
 
     q = norm(name)
     cands = []
